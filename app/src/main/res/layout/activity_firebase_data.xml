@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseDataActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bloodhd1">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/searchViewd"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+
+
+
+        >
+
+    </androidx.appcompat.widget.SearchView>
+
+
+
+
+    <ListView
+        android:id="@+id/listViewId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/DarkRed"
+        android:dividerHeight="3sp"
+        android:listSelector="@color/common_google_signin_btn_text_light_disabled"/>
+</LinearLayout>

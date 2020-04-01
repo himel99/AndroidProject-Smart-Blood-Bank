@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "525996904626",
+    "firebase_url": "https://smart-blood-bank-13e58.firebaseio.com",
+    "project_id": "smart-blood-bank-13e58",
+    "storage_bucket": "smart-blood-bank-13e58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525996904626:android:6fbd8e0de3cc419f6e79ab",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525996904626-3rrud1ijkl13l0llrp6qi73kfbi28f8d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.project",
+            "certificate_hash": "e3104e58ac412ebaacb8c85679ed83bf2ce921f2"
+          }
+        },
+        {
+          "client_id": "525996904626-jl7e0p1ke71rti2lbkjud5ls2jitk0gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVdtQk5tDOP76hRLqpefwMSHoOfvGRhQQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525996904626-jl7e0p1ke71rti2lbkjud5ls2jitk0gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

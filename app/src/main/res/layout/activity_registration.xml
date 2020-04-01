@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blood4"
+    tools:context=".RegistrationActivity">
+
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="271dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Enter Your Name"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027" />
+
+    <EditText
+        android:id="@+id/etUserPhone"
+        android:layout_width="267dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:hint="Enter Your Phone Number"
+        android:textColor="#000"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserName"
+        app:layout_constraintVertical_bias="0.046" />
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="255dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="436dp"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:textColor="#000"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserPhone"
+        app:layout_constraintVertical_bias="0.402" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etVerificationCode"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/tvbacktologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alredy Signed in? Login"
+        android:textColor="#000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signupbutton"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <Button
+        android:id="@+id/verificationCodeSentButton"
+        android:layout_width="178dp"
+        android:layout_height="55dp"
+        android:text="Send Verification Code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserAddress"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <EditText
+        android:id="@+id/etVerificationCode"
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="152dp"
+        android:ems="10"
+        android:textColor="#000"
+        android:hint="Enter Verification Code"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verificationCodeSentButton"
+        app:layout_constraintVertical_bias="0.533" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="267dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="48dp"
+        android:entries="@array/blood_group"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etUserPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/etUserAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter your address"
+        android:textColor="#000"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:layout_constraintVertical_bias="0.097" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
